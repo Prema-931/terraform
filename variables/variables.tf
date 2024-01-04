@@ -1,6 +1,11 @@
+# 1. command line
+# 2. -var-file
+# 3. terrraform.tfvars
+# 4. ENV variables
+
 variable "ami_id" {
     type = string
-    default = "ami-03265a0778a880afb"
+    #default = "ami-03265a0778a880afb"
 }
 
 variable "instance_type" {
